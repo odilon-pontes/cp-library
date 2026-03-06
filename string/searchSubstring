@@ -6,6 +6,6 @@ int main(){
     string texto = "programacao";
     string padrao = "gram";
 
-    if(texto.find(padrao) != string::npos)
+    if(texto.find(padrao) != npos)
         cout << "Encontrado";
 }
