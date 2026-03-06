@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+    string texto = "programacao";
+    string padrao = "gram";
+
+    if(texto.find(padrao) != string::npos)
+        cout << "Encontrado";
+}
